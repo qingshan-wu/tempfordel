@@ -1,0 +1,21 @@
+.layout {
+  height: 100%;
+  position: relative;
+}
+
+.split-view {
+  position: absolute;
+
+  left: 0;
+  right: 0;
+}
+
+.horizontal {
+  position: absolute;
+  height: 2px;
+  left: 0;
+  right: 0;
+  cursor: row-resize;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 2;
+}
